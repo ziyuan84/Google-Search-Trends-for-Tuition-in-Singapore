@@ -2,10 +2,9 @@
 title: "Google Search Trends for Tuition in Singapore"
 #author: "Zy"
 date: "2023-04-20"
-output:
-  html_document: default
-  pdf_document:
-  extra_dependencies: ['amsmath', 'hyperref']
+output: 
+  html_document:
+    keep_md: true
 monofont: "Roboto Mono"
 header-includes:
   - \usepackage{fontspec}
